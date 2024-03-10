@@ -1,0 +1,19 @@
+modLoader = "javafml"
+loaderVersion = "[36,)"
+license = "MIT"
+
+[[mods]]
+modId = "slowberrybegone"
+version = "${version}"
+displayName = "SlowBerryBeGone"
+authors = "TeamPotato"
+description = '''
+A Minecraft Mod.
+'''
+
+[[dependencies.slowberrybegone]]
+modId = "forge"
+mandatory = true
+versionRange = "[36,)"
+ordering = "NONE"
+side = "BOTH"
